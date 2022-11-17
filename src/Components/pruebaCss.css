@@ -1,0 +1,65 @@
+.div-drop{
+    background-color: antiquewhite;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+    height: 5vh;
+    border-radius: 25px;
+}
+
+.div-drop[mover='true']{
+    animation-play-state: running;
+    /* justify-content: flex-end; */
+
+}
+
+.div-drop[mover='false']{
+    justify-content: flex-start;
+    animation-name: deslizIzquierda;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+   
+}
+
+.div-in-drop{
+    width: 10%;
+    height: inherit;
+    background-color: rgb(218, 6, 6);
+    border-radius: 65%;
+    animation-name: deslizDerecha;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+}
+
+@keyframes deslizIzquierda {
+    0%{
+        transform: translateX(0px);
+    }
+
+    100%{
+        transform: translateX(400px);
+    }
+ 
+}
+
+@keyframes deslizDerecha {
+    0%{
+        transform: translateX(0px);
+    }
+
+    100%{
+        transform: translateX(400px);
+    }
+
+    
+}
+
+
+
+
+
+
+
+
