@@ -3,7 +3,7 @@ import axios from 'axios'
  
 
  const LoginContext = createContext()
- const URLBASE = 'http://127.0.0.1:8000/api/'
+ const URLBASE = 'https://msdocs-python-sqlserver-api-215.azurewebsites.net/api/'
 const  headers =  {
          "Content-type": "application/json"
         }
