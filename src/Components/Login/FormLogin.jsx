@@ -16,8 +16,8 @@ function FormLogin({showPassword,showPass,handleSubmitForm}) {
     <form className='form-login' autoComplete='off' onSubmit={handleSubmit(enviar)} >
         <div className='inputs-colections-form'>
             <div className='content-input-form'>
-            <input type='text' className='form-input-text'  placeholder='Ingresar Usuario' {...register('username',{maxLength:{value:30,message:'Maximo 30 caracteres'},required:'Este campo es requerido'})} />
-            {errors.username && <span style={{color:'red',fontSize:'12px'}}>{errors.username?.message}</span>}
+            <input type='text' className='form-input-text'  placeholder='Ingresar Usuario' {...register('email',{maxLength:{value:30,message:'Maximo 30 caracteres'},required:'Este campo es requerido'})} />
+            {errors.email && <span style={{color:'red',fontSize:'12px'}}>{errors.email?.message}</span>}
             </div>
             <div className='content-input-form'>
             <input type='password' id='textTrasformInput' className='form-input-text'  placeholder='Ingresar Contraseña' {...register('password',{maxLength:{value:30,message:'Maximo 30 caracteres'},required:'Este campo es requerido'})}/>

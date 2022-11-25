@@ -3,7 +3,7 @@
 import {AiOutlineMenu} from 'react-icons/ai';
 import Logo from '../../Assets/img/logoConsulting.png'
 import {Route, Routes } from "react-router-dom";
-import Prueba1 from '../Prueba1';
+import CementoPremezclado from '../../Pages/Menu/ElementosConstruccion/cementoPremezclado';
 import Prueba2 from '../Prueba2';
 
 
@@ -29,7 +29,7 @@ function MenuContent() {
         </div>
         <div className="container-options-show">
         <Routes>
-            <Route path="prueba1/" element={<Prueba1/>}/>
+            <Route path="prueba1/" element={<CementoPremezclado/>}/>
             <Route path="prueba2/" element={<Prueba2/>}/>
             <Route path="*" element={<h2 style={{borderBottom:'2px solid grey'}}> No found 404</h2>}/>
         </Routes>

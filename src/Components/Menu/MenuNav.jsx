@@ -19,7 +19,7 @@ import {IoIosArrowForward,IoIosArrowDown} from 'react-icons/io'
 export default function MenuNav() {
     
     const {Logout,token} = useContext(LoginContext)
-
+  
 
     const selecteOption = (e)=>{
       const idDelete = document.getElementById('menu-nav-target-options-selecte')
@@ -61,7 +61,7 @@ export default function MenuNav() {
             <div  className='container-menu-avatar-img-cont'>
                 <img  className='container-menu-img-avatar' src='https://thumbs.dreamstime.com/b/icono-de-hombre-negocios-imagen-avatar-macho-vector-perfil-con-gafas-y-peinado-barba-179728610.jpg' alt='imgAvatar.jpg'/>            
             </div>
-            <div><p>{token.user.correo}</p></div>
+            <div><p></p></div>
         </div>
         <div className='container-menu-options'>
 

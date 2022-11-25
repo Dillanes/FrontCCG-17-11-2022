@@ -5,3 +5,46 @@
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Oswald', sans-serif; */
 }
+/* 
+.div-form-input{
+    display:  flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.div-form-input > label{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.div-form-input > input{
+    width: max-content;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.div-contect-any-input{
+    display: grid;
+    grid-template-columns: repeat(3,max-content);
+    margin-bottom: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    position: relative;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.div-contect-any-input::-webkit-scrollbar{
+    scrollbar-color: none;
+    scrollbar-width: none;
+}
+
+
+.div-contect-any-input>h1{
+    position: absolute;
+    
+
+} */

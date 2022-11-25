@@ -5,7 +5,8 @@
     --width-show:300px;
     --width-collapsed:50px;
     --width-responsive:0px;
-    --padding:20px
+    --padding:20px;
+    --width-header-nav:64px;
     /* --width-collapsed:50px; */
 }
 
@@ -180,7 +181,7 @@
     position: relative;
     overflow: hidden;
     background-color: #F7F6FB;
-    height: 64px;
+    height: var(--width-header-nav);
     font-size: 2rem;
     line-height: 200%;
     padding-left: 10px;
@@ -202,8 +203,9 @@
 
 .container-options-show{
     background-color: #fff;
-    height: 100%;
     padding: 10PX;
+    height: calc(100vh - var(--width-header-nav));
+    overflow-y: scroll;
 }
 
 @media screen and ( max-width:700px) {
